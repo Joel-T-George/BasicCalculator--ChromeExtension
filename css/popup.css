@@ -1,0 +1,79 @@
+body{
+	margin: 0em;
+	padding: 0em;
+	width: 30em;
+    height: 40em;
+    font-family: cursive;
+    
+   
+}
+
+	
+
+
+
+#Display{
+	margin: 0.001rem;
+	max-width: auto;
+	height: 5rem;
+	background-color: rgba(0, 0, 0, 1.0);
+}
+
+#keys{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.span-two{
+	grid-column: 3 / span 2;
+}
+#keys button{
+	padding: 1.4rem;
+	font-size: 0.3in;
+	font-weight: 0.1em;
+	background-color: rgba(252, 252, 250, .75);
+	outline: none;
+	
+
+}
+#keys button:hover{
+	background-color: rgba(125, 219, 196, .75);
+}
+.currentoprends{
+	max-width:auto ;
+	height: 0.3em;
+	padding: 0.5rem;
+	margin: 0.1rem;	
+	font-size: 0.3in;
+	text-align: right;
+	margin: 0;
+
+
+
+
+}
+.PreviousOprends{
+	width: 13rem;
+	height: auto;
+	margin: 0;
+	padding: 0rem;
+	text-align: right;
+	font-size: 0.2in;
+}
+#Display input{
+	background-color: rgba(0, 0, 0, 1.0);
+	color: #fff;
+	outline: none;
+	border-color:rgba(0, 0, 0, 1.0);
+}
+.Oprends{
+	width: 3rem;
+	font-size: 0.3in;
+	margin: 0;
+	text-align: center;
+}
+.count{
+	width: 3rem;
+	font-size: 0.150in;
+	margin: 0;
+	text-align: center;
+}

@@ -1,0 +1,23 @@
+{
+	"name":"Calculator",
+	"version":"0.0.1",
+	"manifest_version":2,
+	"description":"Basic Calculator for speedup worker concernation easily manupliuate the work",
+	"author":"JOEL T GEORGE",
+	"permissions":[
+		"activeTab"
+
+	],
+	"browser_action":{
+		"default_icon":"images/calculatorlogo.png",
+		"default_popup":"html/popup.html",
+		"js":["libs/js_libs/jquery-3.6.0.js","js/popup.js"],
+		"css":["css/popup.css"]
+	},
+	"icons":{
+		"16":"images/calculatorlogo16.png",
+		"32":"images/calculatorlogo32.png",
+		"48":"images/calculatorlogo48.png",
+		"128":"images/calculatorlogo128.png"
+	}
+}
